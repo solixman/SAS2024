@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double r , Pi=3.14 , S;
+    printf("donner le rayon du cercle");
+    scanf("%lf", &r);
+    S=(4/3)*Pi*(pow(r,3));
+    printf("r=%lf",S);
+    return 0;
+    
+
+
+}
